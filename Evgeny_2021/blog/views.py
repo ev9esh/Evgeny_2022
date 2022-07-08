@@ -1,4 +1,4 @@
-from .models import Category, Post, Comment
+from .models import Post
 from django.shortcuts import render
 
 
