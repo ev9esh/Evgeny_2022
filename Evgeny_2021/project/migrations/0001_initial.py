@@ -18,7 +18,7 @@ class Migration(migrations.Migration):
                 ('title', models.CharField(max_length=100)),
                 ('description', models.TextField()),
                 ('technology', models.CharField(max_length=50)),
-                ('image', models.FileField(upload_to='img/')),
+                ('image', models.FileField(upload_to='image/')),
             ],
         ),
     ]
